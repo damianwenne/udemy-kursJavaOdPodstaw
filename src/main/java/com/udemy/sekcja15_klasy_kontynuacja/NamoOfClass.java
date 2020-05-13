@@ -13,8 +13,8 @@ public class NamoOfClass {
         System.out.println(nazwaZmiennej);
         System.out.println(this.nazwaZmiennej);
 
-        metodaPrzyjmujeParametr(5);
-        metodaPrzyjmujeParametr("Jakis tekst");
+//        metodaPrzyjmujeParametr(5);
+//        metodaPrzyjmujeParametr("Jakis tekst");
     }
 
     public void drugaMetoda() {
@@ -26,21 +26,21 @@ public class NamoOfClass {
         return a;
     }
 
-    private int metodaPrzyjmujeParametr(int a) {
-        return a;
-    }
-
-    private int metodaPrzyjmujeParametr(String a) {
-        return 5;
-    }
+//    private int metodaPrzyjmujeParametr(int a) {
+//        return a;
+//    }
+//
+//    private String metodaPrzyjmujeParametr(String a) {
+//        return 5;
+//    }
 
     private int metodaPrzyjmujeParametr(int a, String b) {
         return 55;
     }
 
-    private String metodaPrzyjmujeParametr(int a) {
-        return "Jakis tekst";
-    }
+//    private int metodaPrzyjmujeParametr(int a) {
+//        return "Jakis tekst";
+//    }
 
 
 }
